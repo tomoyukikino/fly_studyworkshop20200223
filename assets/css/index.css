@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Kosugi+Maru|M+PLUS+1p:900&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +29,7 @@ body.drawer--navbarTopGutter {
 }
 
 /*上部ヘッダー*/
+
 header.drawer-navbar .drawer-navbar-header {
   background-color: rgba(0, 0, 0, 0);
   border-bottom: none;
@@ -55,7 +55,6 @@ header.scrolled {
     background-color: transparent;
     box-shadow: none;
   }
-
   header .menu-icon {
     color: rgba(255, 255, 255, 0.7);
     font-weight: bold;
@@ -67,28 +66,23 @@ header.scrolled {
     border-radius: 0.2em;
     border: solid 3px rgba(255, 255, 255, 0.2);
   }
-
   header .drawer-navbar-header {
     padding: 0 1.5rem;
     z-index: unset;
   }
-
   header .drawer-hamburger {
     padding: 0;
     height: 3.75rem;
     position: relative;
     margin-left: auto;
   }
-
   header.drawer-navbar .drawer-nav {
     padding-top: 0;
     z-index: 3;
   }
-
   div.drawer-overlay {
     background: rgba(0, 0, 0, 0.5);
   }
-
   .drawer-open header .menu-icon {
     transform: rotate(180deg);
     transition-duration: 0.5s;
@@ -107,15 +101,12 @@ header a.drawer-menu-item {
     display: flex;
     justify-content: space-evenly;
   }
-
   header.drawer-navbar .drawer-menu > li {
     float: none;
   }
-
   header a.drawer-menu-item {
     font-size: 1.2vw;
   }
-
   .lang-en header a.drawer-menu-item {
     font-size: 1.2vw;
     padding: 0 0.5em;
@@ -126,7 +117,6 @@ header a.drawer-menu-item {
   header a.drawer-menu-item {
     font-size: 0.78em;
   }
-
   .lang-en header a.drawer-menu-item {
     font-size: 0.7em;
   }
@@ -148,6 +138,7 @@ header a.drawer-menu-item:hover {
 }
 
 /*上部ヘッダーここまで*/
+
 h2.section_title {
   /* ヘッダからのジャンプ用タイトル */
   margin-bottom: 20px;
@@ -158,6 +149,7 @@ h2.section_title {
 .box {
   padding: 30px 0;
 }
+
 @media screen and (max-width: 700px) {
   .box {
     padding: 20px 0;
@@ -183,7 +175,8 @@ a:hover {
 
 .video_wrapper {
   position: relative;
-  padding-top: 56.25%; /* 16:9 */
+  padding-top: 56.25%;
+  /* 16:9 */
   width: 100%;
 }
 
@@ -200,11 +193,13 @@ a:hover {
   margin-right: auto;
   width: 60%;
 }
+
 @media screen and (max-width: 1440px) {
   .video_box {
     width: 80%;
   }
 }
+
 @media screen and (max-width: 700px) {
   .video_box {
     width: 100%;
@@ -251,6 +246,7 @@ a:hover {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   text-shadow: 4px 4px 6px #ffaeae, -4px 4px 6px #8f8fff;
 }
+
 .hero .logo-sub {
   text-align: center;
   margin-top: 2.5em;
@@ -259,23 +255,26 @@ a:hover {
   letter-spacing: 6px;
   text-shadow: 4px 4px 6px #ffaeae, -4px 4px 6px #8f8fff;
 }
+
 .guide_for_scroll {
   position: absolute;
   top: 85vh;
 }
+
 .guide_for_scroll a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 .guide_for_scroll i {
   font-size: 5rem;
   font-weight: bold;
   animation: shake 0.5s ease infinite alternate;
 }
+
 @media screen and (max-width: 700px) {
   .hero .logo {
     font-size: 70px;
   }
-
   .hero .logo-sub {
     margin-top: 1.5rem;
     font-size: 25px;
@@ -287,7 +286,6 @@ a:hover {
     opacity: 0;
     margin-bottom: 64px;
   }
-
   to {
     opacity: 1;
     margin-bottom: 0;
@@ -300,42 +298,34 @@ a:hover {
     -webkit-clip-path: polygon(0 20%, 100% 20%, 100% 21%, 0 21%);
     clip-path: polygon(0 20%, 100% 20%, 100% 21%, 0 21%);
   }
-
   2% {
     -webkit-clip-path: polygon(0 33%, 100% 33%, 100% 33%, 0 33%);
     clip-path: polygon(0 33%, 100% 33%, 100% 33%, 0 33%);
   }
-
   4% {
     -webkit-clip-path: polygon(0 44%, 100% 44%, 100% 44%, 0 44%);
     clip-path: polygon(0 44%, 100% 44%, 100% 44%, 0 44%);
   }
-
   5% {
     -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 20%, 0 20%);
     clip-path: polygon(0 50%, 100% 50%, 100% 20%, 0 20%);
   }
-
   6% {
     -webkit-clip-path: polygon(0 70%, 100% 70%, 100% 70%, 0 70%);
     clip-path: polygon(0 70%, 100% 70%, 100% 70%, 0 70%);
   }
-
   7% {
     -webkit-clip-path: polygon(0 80%, 100% 80%, 100% 80%, 0 80%);
     clip-path: polygon(0 80%, 100% 80%, 100% 80%, 0 80%);
   }
-
   8% {
     -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 55%, 0 55%);
     clip-path: polygon(0 50%, 100% 50%, 100% 55%, 0 55%);
   }
-
   9% {
     -webkit-clip-path: polygon(0 70%, 100% 70%, 100% 80%, 0 80%);
     clip-path: polygon(0 70%, 100% 70%, 100% 80%, 0 80%);
   }
-
   9.9% {
     transform: translate3d(calc(-1 * 10px), 0, 0) scale3d(-1, -1, 1);
   }
@@ -346,6 +336,7 @@ a:hover {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 }
+
 @keyframes shake {
   0% {
     transform: translateY(-5px);
@@ -360,14 +351,16 @@ a:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: #cf4e7c;
+  background: black;
   padding: 100px 20px 20px;
 }
+
 @media screen and (max-width: 700px) {
   .firstview {
     padding: 10px;
   }
 }
+
 .firstview .do-omega {
   margin: 1rem 0;
   font-family: 'M PLUS 1p', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -389,6 +382,7 @@ a:hover {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 0.4rem whitesmoke;
 }
+
 @media screen and (max-width: 700px) {
   .firstview .do-omega {
     padding-right: 0.1rem;
@@ -413,11 +407,13 @@ a:hover {
     linear-gradient(to left, #7995f7, #de7072);
   padding: 100px 120px 120px;
 }
+
 @media screen and (max-width: 1024px) {
   .introduction {
     padding: 70px 80px 80px;
   }
 }
+
 @media screen and (max-width: 700px) {
   .introduction {
     padding: 40px;
@@ -433,9 +429,11 @@ a:hover {
   width: 100%;
   padding-top: 5vh;
 }
+
 .discography .hover-effect img {
   width: 300px;
 }
+
 @media screen and (max-width: 380px) {
   .discography .hover-effect img {
     width: 100%;
@@ -446,9 +444,11 @@ a:hover {
   width: 100%;
   margin-top: 5vh;
 }
+
 .playlist h2 {
   margin-bottom: 20px;
 }
+
 /*
 .playlist .videos {
   display: flex;
@@ -456,19 +456,23 @@ a:hover {
   overflow-y: hidden;
 }
 */
+
 .playlist .videos img {
   margin: auto;
 }
+
 .videos .video-link {
   display: block;
   margin: 0 10px;
   position: relative;
   height: 240px;
 }
+
 .videos .video-link img {
   width: 320px;
   height: 240px;
 }
+
 .videos .video-link .video-title {
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
@@ -478,6 +482,7 @@ a:hover {
   left: 0;
   bottom: -50%;
 }
+
 .videos .video-link:hover .video-title {
   bottom: 0;
   opacity: 1;
@@ -487,6 +492,7 @@ a:hover {
   width: 10px;
   height: 10px;
 }
+
 .videos::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.5);
   border: none;
@@ -497,7 +503,6 @@ a:hover {
     width: 100%;
     height: auto;
   }
-
   .videos .video-link {
     height: 150px;
   }
@@ -509,6 +514,7 @@ a:hover {
     font-size: 0.5rem;
   }
 }
+
 .swiper-parent {
   position: relative;
 }
@@ -536,6 +542,7 @@ a:hover {
   text-align: center;
   padding-top: 100px;
 }
+
 .swiper-pagination-bullet {
   width: 8px;
   height: 8px;
@@ -549,11 +556,15 @@ a:hover {
   opacity: 1;
   background: #007aff;
 }
+
 /*.swiper-button-prev {*/
+
 /*  color: #f083ba;*/
+
 /*  background: rgba(255, 255, 255, 50);*/
 
 /*}*/
+
 .swiper-button-prev,
 .swiper-button-next {
   background-image: none;
@@ -561,6 +572,7 @@ a:hover {
   height: 86px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 .swiper-button-prev:after {
   font-family: 'Font Awesome 5 Free';
   content: '\f100';
@@ -568,7 +580,9 @@ a:hover {
   color: #f083ba;
   text-shadow: 4px 4px 6px #ffaeae;
 }
+
 /* 次ページボタンのスタイル */
+
 .swiper-button-next:after {
   font-family: 'Font Awesome 5 Free';
   content: '\f101';
@@ -592,6 +606,7 @@ a:hover {
   text-align: center;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
+
 @media screen and (max-width: 700px) {
   .links {
     padding: 40px;
@@ -604,6 +619,7 @@ a:hover {
     linear-gradient(to left, #7995f7, #de7072);
   background-size: cover;
 }
+
 @media screen and (max-width: 1024px) {
   .links.normal {
     background: url(../images/omesis_with_silhouette.narrow.001.png) top center
@@ -612,6 +628,7 @@ a:hover {
     background-size: cover;
   }
 }
+
 @media screen and (max-width: 768px) {
   .links.normal {
     background: url(../images/omesis_with_silhouette.narrow.002.png) top center
@@ -626,6 +643,7 @@ a:hover {
     linear-gradient(to left, #7995f7, #de7072);
   background-size: cover;
 }
+
 @media screen and (max-width: 1600px) {
   .links.lucky {
     background: url(../images/rayrio.narrow.001.png) top center no-repeat,
@@ -633,6 +651,7 @@ a:hover {
     background-size: cover;
   }
 }
+
 @media screen and (max-width: 768px) {
   .links.lucky {
     background: url(../images/rayrio.narrow.002.png) top center no-repeat,
@@ -656,9 +675,11 @@ a:hover {
   margin-top: 10px;
   text-align: center;
 }
+
 .profiles .profile {
   margin: 5px;
 }
+
 .profiles .profile a {
   display: flex;
   text-decoration: none;
@@ -668,19 +689,23 @@ a:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .profiles .profile .image {
   text-align: center;
   margin-right: 5px;
 }
+
 .profiles .profile h3 {
   margin-bottom: 7px;
 }
+
 .profiles .profile img {
   align-self: center;
   border-radius: 100%;
   width: 120px;
   max-width: 100%;
 }
+
 /*
 .omesis_ray .twitter-timeline {
   background: #de7072;
@@ -699,6 +724,7 @@ a:hover {
   transition: box-shadow 0.25s;
   display: inline-block;
 }
+
 a.share-button:hover {
   color: white;
   box-shadow: 0 0 24px #00000050;
@@ -722,6 +748,7 @@ a.share-button:hover {
 .br-sp {
   display: none;
 }
+
 @media screen and (max-width: 700px) {
   .br-sp {
     display: inline;
@@ -744,11 +771,13 @@ a.share-button:hover {
 .viewer {
   width: 100%;
 }
+
 .viewer .controller {
   display: flex;
   justify-content: center;
   margin: 10px 0;
 }
+
 .viewer .controller button,
 .rotate_button {
   cursor: pointer;
@@ -759,25 +788,30 @@ a.share-button:hover {
   color: white;
   border-radius: 2px;
 }
+
 .rotate_button {
   font-size: 0.8rem;
   margin-bottom: 10px;
 }
+
 .viewer .controller button:hover,
 .viewer .controller button.active,
 .rotate_button:hover,
 .rotate_button.active {
   box-shadow: 0 0 24px #00000050;
 }
+
 .viewer .controller button.active,
 .rotate_button.active {
   background: #06ffd2;
   color: black;
   border: none;
 }
+
 .viewer .description {
   margin: 5px 0;
 }
+
 .viewer .description a {
   word-wrap: break-word;
 }
@@ -856,6 +890,7 @@ a.share-button:hover {
 /*
 うんちゃん
 */
+
 .fukidashi {
   display: flex;
   align-items: center;
@@ -1084,6 +1119,7 @@ a.share-button:hover {
   border-radius: 100%;
   box-shadow: 0 300px 0 300px #f083ba;
 }
+
 .c-unchan__tsuno__inner.lucky::before {
   content: '';
   position: absolute;
@@ -1099,7 +1135,6 @@ a.share-button:hover {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-start;
-
   margin-top: 20px;
   padding: 1vw;
   background-color: rgba(0, 0, 0, 0.2);
@@ -1139,7 +1174,6 @@ a.share-button:hover {
     opacity: 0;
     transform: translateY(-20px);
   }
-
   100% {
     opacity: 1;
     transform: none;
@@ -1151,11 +1185,9 @@ a.share-button:hover {
     will-change: opacity;
     opacity: 0;
   }
-
   50% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -1166,11 +1198,9 @@ a.share-button:hover {
     will-change: opacity;
     opacity: 0;
   }
-
   50% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -1186,6 +1216,7 @@ a.share-button:hover {
 /*
 https://www.tam-tam.co.jp/tipsnote/html_css/post11618.html
  */
+
 @keyframes purupuru {
   0% {
     transform: skew(0deg, 0deg);
